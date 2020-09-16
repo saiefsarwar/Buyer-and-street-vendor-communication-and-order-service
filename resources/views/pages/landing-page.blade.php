@@ -48,7 +48,7 @@
 							<div class="info-contact">
 								<div class="contact-icon"><i class="fa fa-phone"></i></div>
 								<div class="contact-number">
-									<p>+8801754689260</p><span>24/7 support</span>
+									<p>+95867957</p><span>24/7 support</span>
 								</div>
 							</div>
 						</div>
@@ -66,4 +66,53 @@
 		</div>
 	</div>
 </div>
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="categories__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-1.jpg')}}">
+                            <h5><a href="#">Fresh Fruit</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-2.jpg')}}">
+                            <h5><a href="#">Dried Fruit</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
+                            <h5><a href="#">Vegetables</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-4.jpg')}}">
+                            <h5><a href="#">drink fruits</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-5.jpg')}}">
+                            <h5><a href="#">drink fruits</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="{{asset('images/banner/banner-1.jpg')}}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="{{asset('images/banner/banner-2.jpg')}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

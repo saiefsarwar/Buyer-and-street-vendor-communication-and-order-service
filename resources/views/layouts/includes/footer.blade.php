@@ -2,9 +2,9 @@
 
 
 <style type="text/css">
-	body a{
-		color: ;
-	}
+  body a{
+    color: ;
+  }
 </style>
 <!-- Footer -->
 <footer class="page-footer font-small elegant-color" style="color: ; background: #F3F6FA; margin-top: 100px">
@@ -139,7 +139,7 @@
         <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
 
         <ul class="fa-ul foot-desc ml-4">
-          <li class="mb-2"><span class="fa-li"><i class="far fa-map"></i></span>New York, Avenue Street 10
+          <li class="mb-2"><span class="fa-li"><i class="far fa-map"></i></span>Dhaka, Avenue Street 10
           </li>
           <li class="mb-2"><span class="fa-li"><i class="fas fa-phone-alt"></i></span>042 876 836 908</li>
           <li class="mb-2"><span class="fa-li"><i class="far fa-envelope"></i></span>company@example.com</li>
@@ -157,7 +157,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> eHawker.com</a>
+    <a href="https://mdbootstrap.com/"> eSeller.com</a>
   </div>
   <!-- Copyright -->
 

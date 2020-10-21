@@ -1,3 +1,4 @@
 .info-slide{
-	background-image: url('/images/hero/banner.jpg');
+	background-image: url('/images/product-pictures/banner.jpg');
+	background-repeat: no-repeat;
 }

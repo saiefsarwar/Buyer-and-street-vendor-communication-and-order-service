@@ -9,7 +9,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-
+    @yield('styles')
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -30,6 +30,6 @@
     <!-- owl css -->
     <link rel="stylesheet" href="{{asset('css/layout/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/layout/owl.theme.default.min.css')}}">
-    
+    @yield('styles')
 
 </head>

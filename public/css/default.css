@@ -1,14 +1,11 @@
 .info-section {
 	padding-bottom: 50px;
 }
-
-
 .info-section .product-categories {
 	position: relative;
 }
 
 .info-section .product-categories ul {
-	display: ;
 	position: absolute;
 	left: 0;
 	top: 46px;
@@ -152,10 +149,9 @@
 }
 
 .info-slide {
-	height: 431px;
+	height: 550px;
 	display: flex;
 	align-items: center;
-	padding-left: 75px;
 }
 
 .slide-content span {

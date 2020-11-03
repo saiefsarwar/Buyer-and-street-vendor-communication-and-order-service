@@ -15,54 +15,54 @@
 @endsection
 @section('content')
 <div class="info-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="product-categories">
-					<div class="card">
-							<div class="all-product-categories">
-								<i class="fas fa-bars"></i><span class="mx-3">All Categories</span>
-								<i class="fas fa-angle-down"></i>
-							</div>
-						<div class="category-option">
-							<ul>
-								<li><a href="#">Fresh Fruits</a></li>
-								<li><a href="#">Fresh Vegetables</a></li>
-								<li><a href="#">Spinach (shak)</a></li>
-								<li><a href="#">Fresh Meat</a></li>
-								<li><a href="#">Fresh Fish</a></li>
-								<li><a href="#">Others</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-9">
-				<div class="product-search">
-					<div class="row">
-						<div class="col-md-9">
-							<div class="info-search">
-								<div class="info-search-form">
-									<form action="">
-										<div class="search-categories"><p>All Categories</p><span ><i class="fas fa-angle-down"></i></span></div>
-										<div class="search-box">
-											<input type="text" name="search" placeholder="type your product name">
-											<button style="background-color: #FFA500" type="submit" class="btn">search</button>
-										</div>
-									</form>
-							    </div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="info-contact">
-								<div class="contact-icon"><i class="fa fa-phone"></i></div>
-								<div class="contact-number">
-									<p>+88017000000</p><span>24/7 support</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-categories">
+                    <div class="card">
+                            <div class="all-product-categories">
+                                <i class="fas fa-bars"></i><span class="mx-3">All Categories</span>
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                        <div class="category-option">
+                            <ul>
+                                <li><a href="#">Fresh Fruits</a></li>
+                                <li><a href="#">Fresh Vegetables</a></li>
+                                <li><a href="#">Spinach (shak)</a></li>
+                                <li><a href="#">Fresh Meat</a></li>
+                                <li><a href="#">Fresh Fish</a></li>
+                                <li><a href="#">Others</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="product-search">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="info-search">
+                                <div class="info-search-form">
+                                    <form action="">
+                                        <div class="search-categories"><p>All Categories</p><span ><i class="fas fa-angle-down"></i></span></div>
+                                        <div class="search-box">
+                                            <input type="text" name="search" placeholder="type your product name">
+                                            <button style="background-color: #FFA500" type="submit" class="btn">search</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info-contact">
+                                <div class="contact-icon"><i class="fa fa-phone"></i></div>
+                                <div class="contact-number">
+                                    <p>+88017000000</p><span>24/7 support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="info-slide" style="margin-left: 5%">
                     <div class="slide-content" >
 <!--                         <span>FRUIT FRESH</span>
@@ -71,9 +71,9 @@
                         <a href="#" class="primary-btn">SHOP NOW</a> -->
                     </div>
                 </div>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 </div>
 
     <section class="categories">
@@ -116,44 +116,44 @@
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-sm">
-		                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-1.jpg')}}">
-		                            <h5><a href="#">Fresh Fruit</a></h5>
-		                        </div>
+                                <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-1.jpg')}}">
+                                    <h5><a href="#">Fresh Fruit</a></h5>
+                                </div>
                             </div>
                             <div class="col-sm">
-		                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-2.jpg')}}">
-		                            <h5><a href="#">Dried Fruit</a></h5>
-		                        </div>
+                                <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-2.jpg')}}">
+                                    <h5><a href="#">Dried Fruit</a></h5>
+                                </div>
                             </div>
                         
                             <div class="col-sm">
-		                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
-		                            <h5><a href="#">Vegetables</a></h5>
-		                        </div>
+                                <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
+                                    <h5><a href="#">Vegetables</a></h5>
+                                </div>
                             </div>
                             <div class="col-sm">
-		                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
-		                            <h5><a href="#">Vegetables</a></h5>
-		                        </div>
+                                <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
+                                    <h5><a href="#">Vegetables</a></h5>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-sm">
-		                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
-		                            <h5><a href="#">Vegetables</a></h5>
-		                        </div>
+                                <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
+                                    <h5><a href="#">Vegetables</a></h5>
+                                </div>
                             </div>
                             <div class="col-sm">
-		                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
-		                            <h5><a href="#">Vegetables</a></h5>
-		                        </div>
+                                <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
+                                    <h5><a href="#">Vegetables</a></h5>
+                                </div>
                             </div>
                             <div class="col-sm">
-		                        <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
-		                            <h5><a href="#">Vegetables</a></h5>
-		                        </div>
+                                <div class="categories__item set-bg" data-setbg="{{asset('images/categories/cat-3.jpg')}}">
+                                    <h5><a href="#">Vegetables</a></h5>
+                                </div>
                             </div>
                         </div>
                     </div>

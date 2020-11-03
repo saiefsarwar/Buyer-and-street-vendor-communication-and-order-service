@@ -8,11 +8,7 @@ class PageController extends Controller
 {
     public function landingPage()
     {
-    	return view('pages.landing-page');
-    }
-
-    public function contact()
-    {
-    	return view('frontend.contact');
+        $categories = Category::all();
+        return view('frontend.landing-page')->with(['categories'=> $categories]);
     }
 }

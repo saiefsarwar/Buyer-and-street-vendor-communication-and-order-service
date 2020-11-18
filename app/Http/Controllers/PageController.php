@@ -1,13 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Category;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function landingPage()
+    public function contact()
     {
-    	return view('pages.landing-page');
+    	return view('frontend.contact');
     }
 }

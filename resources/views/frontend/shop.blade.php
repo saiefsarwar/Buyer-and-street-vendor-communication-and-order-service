@@ -4,8 +4,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @endsection
 @section('content')
-    <section class="breadcrumb-section set-bg"  style="background-color: #ffbf00">
-        <div class="container-fluid p-4">
+    <section class="breadcrumb-section"  style="background-color: #ffbf00">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 pl-5">
                     <a href="/">Home</a>
@@ -15,7 +15,7 @@
                     <span></span>
                 </div>
                 <div class="col-md-6 col-lg-6 text-right">
-                    <i class="fa fa-search" style="position: absolute; left: 340px;top: 14px;"></i>
+                    <i class="fa fa-search" style="position: absolute; left: 417px;top: 14px;"></i>
                     <input style="padding: 5px 50px 5px 35px;" type="search" name="" id="" placeholder="Search for product">
                 </div>
             </div>
